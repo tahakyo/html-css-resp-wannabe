@@ -80,8 +80,8 @@ img {
     box-sizing: border-box;
     padding: 0;
   }
-  h1 {
-    font-size: 25px;
+  /* h1 {
+    font-size: 25px; */
   }
   .row {
     background-color: lightgrey;
@@ -99,5 +99,14 @@ img {
     float: none;
     width: 100%;
     margin-bottom: 1em;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 1em;
+  }
+  hr {
+    border: 1px solid black;
+    margin: 1em;
   }
 }
