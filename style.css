@@ -84,7 +84,7 @@ img {
     font-size: 25px; */
   }
   .row {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     margin-top: 0;
   }
   #lezioni .row>.left,
@@ -109,4 +109,11 @@ img {
     border: 1px solid black;
     margin: 1em;
   }
+  #why .row {
+    background-color: aquamarine;
+  }
+  #lezioni .row {
+    background-color: lightgrey;
+  }
+
 }
