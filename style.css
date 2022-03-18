@@ -78,9 +78,20 @@ img {
   h1 {
     font-size: 25px;
   }
+  .row {
+    background-color: lightgrey;
+  }
   #lezioni .row>.left,
-#lezioni .row>.right {
+  #lezioni .row>.right {
   float: none;
   width: 100%;
-}
+  margin: 1em 0;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin: 1em 0;
+  }
 }
