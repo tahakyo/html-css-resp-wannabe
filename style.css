@@ -75,23 +75,29 @@ img {
 /* VIEWPORT MOBILE */
 
 @media screen and (max-width: 419px) {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
   h1 {
     font-size: 25px;
   }
   .row {
     background-color: lightgrey;
+    margin-top: 0;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
   float: none;
   width: 100%;
-  margin: 1em 0;
+  margin-bottom: 1em;
   }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     float: none;
     width: 100%;
-    margin: 1em 0;
+    margin-bottom: 1em;
   }
 }
